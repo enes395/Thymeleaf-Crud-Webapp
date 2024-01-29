@@ -1,8 +1,8 @@
-HELP.md
-target/
+# Ignore target folders
+**/target/
+
+# Allow Maven wrapper jar
 !.mvn/wrapper/maven-wrapper.jar
-!**/src/main/**/target/
-!**/src/test/**/target/
 
 ### STS ###
 .apt_generated
